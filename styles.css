@@ -7,6 +7,9 @@
     margin: 0;
 }
 
+/* Grid Container Styles
+########################### */
+
 /* Header section styles
 ########################### */
 
@@ -96,6 +99,7 @@ header {
     height: 6.25rem;
     background-color: #402313;
     color: #ffffff;
+    margin-top: 1.875rem;
 }
 
 .experience figure img {
@@ -115,6 +119,7 @@ header {
     margin: 0 auto;
     height: 20rem;
     text-align: center;
+    margin-top: 1.875rem;
 }
 
 .aboutMe p {
@@ -144,6 +149,7 @@ header {
     margin: 0 auto;
     height: 10rem;
     text-align: center;
+    margin-top: 1.875rem;
 }
 
 .contact-links {
@@ -222,6 +228,10 @@ footer {
 
     .contact-links {
         flex-direction: column;
+    }
+
+    .contact-links figure {
+        margin: .5rem 0;
     }
 
 
