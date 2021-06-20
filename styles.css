@@ -1,0 +1,234 @@
+/* Universel styles
+######################## */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header section styles
+########################### */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4.375rem;
+    border-bottom: 1px solid #402313;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    max-height: 3.75rem;
+    max-width: 3.75rem;
+    margin-left: 1rem;
+}
+
+.unorderedList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unorderedList li {
+    list-style: none;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.unorderedList li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.unorderedList li a:hover {
+    text-decoration: underline;
+}
+
+#about {
+    color: #402313;
+}
+
+/* Banner section styles
+############################ */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    margin: 0 auto;
+    height: 31.25rem;
+    flex: 1 31.25rem;
+    margin-top: 4.406rem;
+    background-image: url("banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-title {
+    background-color: #402313;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+    line-height: 1.8;
+    font-size: 1.5rem;
+}
+
+/* Experience section styles
+############################### */
+
+.experience {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap;
+    width: 100%;
+    height: 6.25rem;
+    background-color: #402313;
+    color: #ffffff;
+}
+
+.experience figure img {
+    max-height: 1.25rem;
+    max-width: 1.25rem;
+}
+
+/* About me section styles
+############################## */
+
+.aboutMe {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+    width: 80%;
+    margin: 0 auto;
+    height: 20rem;
+    text-align: center;
+}
+
+.aboutMe p {
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+.signature {
+    max-height: 4rem;
+    max-width: 4rem;
+}
+
+.strong {
+    color: #402313;
+}
+
+
+/* Contact section styles
+############################ */
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 100%;
+    margin: 0 auto;
+    height: 10rem;
+    text-align: center;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.socialMedia-logos {
+    max-height: 3.125rem;
+    max-width: 3.125rem;
+}
+
+
+
+
+/* Footer section styles
+############################ */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.125rem;
+    background-color: #402313;
+    border-top: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+
+    /* header section styles */
+    header {
+        flex-flow: column;
+        height: 6.25rem;
+        width: 100%;
+    }
+
+    .logo {
+        max-height: 3.125rem;
+        max-width: 3.125rem;
+    }
+
+    /* banner section styles */
+    .banner {
+        margin-top: 6.313rem;
+    }
+
+    .banner-title {
+        font-size: 1.25rem;
+    }
+
+    /* Experience section styles */
+    .experience {
+        flex-flow: column;
+        height: 22rem;
+    }
+
+    /* About me section styles */
+    .aboutMe {
+        width: 100%;
+        height: 30rem;
+    }
+
+    .aboutMe p {
+        font-size: 1.2rem;
+    }
+
+    /* Contact section styles */
+    .contact {
+        height: 20rem;
+    }
+
+    .contact-links {
+        flex-direction: column;
+    }
+
+
+    /* footer section styles */
+    footer {
+        height: 5rem;
+    }
+}
+
+
